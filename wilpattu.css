@@ -264,14 +264,14 @@ footer {
 
 
 @media only screen and (max-width: 435px) {
-    ul li a{
-        font-size: 12px;
-    }
-    ul li a:hover{
-        font-size: 12px;
-    }
+ul li a{
+    font-size: 12px;
+}
+ul li a:hover{
+    font-size: 12px;
+}
 .intro_head{
-display: none;
+    display: none;
 }
 .main_img_heading{
     font-size: 3rem;
@@ -284,7 +284,7 @@ display: none;
     height: 400px;
 }
 .Introduction{
-    margin-top: -200px;
+    margin-top: -150px;
 }
 
 }
