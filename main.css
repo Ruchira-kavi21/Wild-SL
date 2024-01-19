@@ -489,9 +489,8 @@ table tr td {
     color: #ffffff;
     letter-spacing: 5px;
     font-size: 60px;
-    margin-top: -350px;
-    margin-bottom: 350px;
     margin-left: 20px;
+    margin-top: 350px;
 }
 
 .leopard_head {
@@ -518,7 +517,12 @@ table tr td {
 }
 
 .leopard_sec {
+    width: 100%;
     display: flex;
+}
+
+.readmore{
+    text-align: center;
 }
 
 .sec_leo_detail {
@@ -550,38 +554,34 @@ table tr td {
      max-width: 600px;
      margin-left: 600px;
  }
- .grid-container {
-     display: grid;
-     grid-template-columns: repeat(1, 1fr);
+ .grid-cont {
      gap: 50px;
      padding: 20px;
      background-color: rgb(255, 255, 255);
-     margin-left: 20px;
-     margin-right: 20px;
      margin-top: 50px;
      border-radius: 50px;
+     width: 100%;
+     
  }
- .grid-item {
-     background-color: aliceblue;
-     padding: 20px;
-     border: 1px solid #b1abab;
-     text-align: left;
-     box-shadow: rgb(0, 0, 0) 0px 8px 24px;
-     margin-left: 100px;
-     margin-right: 100px;
-     margin-bottom: 50px;
- }
+ .grid-items {
+    background-color: aliceblue;
+    border: 1px solid #b1abab;
+    box-shadow: rgb(0, 0, 0) 0px 8px 24px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+
+}
  
  .title {
      font-size: 30px;
      color: black;
      margin-bottom: 20px;
-     padding: 30px;
      text-align: center;
  }
  .detail {
      font-size: 22px;
      padding: 30px;
+     text-align: justify;
  
  }
  .Img1 {
@@ -804,6 +804,9 @@ footer {
     .main_img_head{
         margin-top: -300px;
     }
+    .sub_head{
+        font-size: 1.8rem;
+    }
 
 }
 @media only screen and (max-width: 768px) {
@@ -858,7 +861,24 @@ footer {
     .imgcov{
         height: 50%;
     }
-
+    .leopard_sec{
+        flex-wrap: wrap;
+    }
+    .main_heading{
+        text-align: center;
+        font-size: 3rem;
+    }
+    .main_head {
+        font-size: 2.5rem;
+    }
+    .sub_sec_head{
+        font-size: 2rem;
+    }
+    .Img1,.Img2{
+        width: 100%;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
 
 
 }
@@ -872,6 +892,27 @@ footer {
     
     .slider, .slider-container{
         height: 420px;
+    }
+    .section_heading{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .grid-items{
+        box-shadow: none;
+        border: none;
+        
+    }
+    .detail {
+        font-size: 18px;
+    }
+    .end_head{
+        font-size: 2rem;
+        padding: 0;
+        text-align: center;
+    }
+    .list{
+        margin-top: 100px;
     }
 }
 
@@ -928,6 +969,10 @@ display: none;
 .Introduction{
     margin-top: -400px;
 }
+.section_heading{
+    font-size: 2.5rem;
+}
+
 
 }
 
@@ -954,6 +999,16 @@ display: none;
         font-size: 1rem;
         margin-top: -200px;
     }
+    .main_head{
+        font-size: 2.2rem;
+    }
+    .sub_sec_head{
+        font-size: 1.6rem;
+    }
 
+
+    .main_heading {
+        margin-top: 300px;
+    }
 
 }
